@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="purple">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clone Zing MP3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./asset/img/logo/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <!-- <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" type="text/css" href="./asset/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./asset/slick-1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body>
+    <div class="main">
+        <div id="menu-bar">
+            <div class="logo">  
+                <div class="menu-logo">
+                </div>
+            </div>
+
+            <div class="menu-list">
+                <ul class="menu-list-item">  
+                    <li class="menu-item active">
+                        <a href="">
+                            <span class="material-symbols-outlined">
+                                album
+                            </span>
+                            <p class="menu-item-name">Khám phá</p>
+                        </a> 
+                    </li>
+                    <li class="menu-item ">
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                library_music
+                            </span>
+                            <p class="menu-item-name">Cá nhân</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                monitoring
+                            </span>
+                            <p class="menu-item-name">#zingchat</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                graphic_eq
+                            </span>
+                            <p class="menu-item-name">Radio</p>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                featured_play_list
+                            </span>
+                            <p class="menu-item-name">Theo dõi</p>
+                        </a>
+                        
+                    </li>                    
+                </ul>
+            </div> 
+            <div class="side-divice"></div>
+
+            <div class="list_add">
+                <div class="menu-category">
+                    <ul class="menu-category-item">
+                        <li class="menu-item">
+                            <a href="#">
+                                <span class="material-symbols-outlined">
+                                    music_note
+                                </span>
+                                <p class="menu-item-name">Nhạc Mới</p>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                <span class="material-symbols-outlined">
+                                    category
+                                </span>
+                                <p class="menu-item-name">Thể Loại</p>
+                            </a> 
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                <span class="material-symbols-outlined">
+                                    grade
+                                </span>
+                                <p class="menu-item-name">Top 100</p>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                <span class="material-symbols-outlined">
+                                    music_video
+                                </span>
+                                <p class="menu-item-name">MV</p>
+                            </a>
+                        </li>                    
+                    </ul>
+    
+                    <div class="login">
+                        <p class="info">
+                            Đăng nhập để khám phá playlist dành riêng cho bạn
+                        </p>
+                        <button class="btn-info">ĐĂNG NHẬP</button>
+                    </div>
+    
+                    <div class="upgrade-vip">
+                        <p class="info">
+                            Nghe nhạc không quảng cáo cùng kho nhạc VIP
+                        </p>
+                        <button class="vip-btn btn-info">NÂNG CẤP VIP</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="add-menu-category">
+            <div class="add-menu-category-item">
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        add
+                    </span>
+                    <p class="menu-item-name">Tạo playlist mới</p>
+                </a>
+            </div>
+        </div>
+        
+        
+        <div id="content1">
+                <div class="header">
+                    <div class="header-content">
+                        <div class="search">
+                            <div class="play-music-setting pad">
+                                <a href="">
+                                    <span class="icon1 material-symbols-outlined">
+                                        arrow_back
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="play-music-setting pad">
+                                <a href="">
+                                    <span class="icon1 material-symbols-outlined">
+                                        arrow_forward
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="input-search pad">
+                                <div class="search-icon">
+                                    <span class="icon1 material-symbols-outlined">
+                                        search
+                                    </span>
+                                </div>
+                                <input type="text" class="search-input" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                            </div>
+                        </div>
+                        <div class="setting">
+                            <div class="play-music-setting pad">
+                                <a href="">
+                                    <span class="icon1 material-symbols-outlined">
+                                        settings
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="play-music-setting pad">
+                                <a href="">
+                                    <span class="icon1 material-symbols-outlined">
+                                        account_circle
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="content-item active">
+                        <div class="slide-music">
+                            <div class="slide-music-main">
+                                <div class="slide-music-item">
+                                    <img src="./asset/img/1.jpg" alt="">
+                                </div>
+                                <div class="slide-music-item">
+                                    <img src="./asset/img/2.jpg" alt="">
+                                </div>
+                                <div class="slide-music-item">
+                                    <img src="./asset/img/3.jpg" alt="">
+                                </div>
+                                <div class="slide-music-item">
+                                    <img src="./asset/img/4.jpg" alt="">
+                                </div>
+                                <div class="slide-music-item">
+                                    <img src="./asset/img/5.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="muisc-list">
+                            <h3 class="music-list-name">Lựa Chọn Hôm Nay</h3>
+                            <div class="music-lists">
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="muisc-list">
+                            <h3 class="music-list-name">Nhạc Mới Mỗi Ngày</h3>
+                            <div class="music-lists">
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item ">
+                        <div class="user-img">
+                            <img src="./asset/img/user-img/tải xuống.jfif" alt="">
+                            <p class="user-img_name">Tất Vành Cơ</p>
+                        </div>
+                        <h1 class="playlist-head">Thư Viện Nhạc Cá Nhân</h1>
+                        <div class="muisc-list">
+                            <h3 class="music-list-name">Playlist</h3>
+                            <div class="music-lists">
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                                <div class="music-list-item">
+                                    <div class="music-img">
+                                        <img class="img-music" src="./asset/img/music-list/tải xuống.webp" alt="">
+                                        <div class="play-album">
+                                            <a class="play-music-icon material-symbols-outlined">
+                                                play_circle
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="music-desc">
+                                        <p class="music-desc-text">Kết hợp Gây nghiện</p>
+                                        <p class="music-desc-text1">1 cây làm chẳng nên non, nhiều cây hợp lại nên bài Hit hay</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-user-music">
+                            <div class="user-list-music">
+                                <ul class="user-list-items">
+                                    <li class="user-list-item active">
+                                        <div class="user-list-item_text">
+                                            <p>BÀI HÁT</p>
+                                        </div>
+                                    </li>
+                                    <li class="user-list-item">
+                                        <div class="user-list-item_text">
+                                            <p>PODCAST</p>
+                                        </div>
+                                    </li>
+                                    <li class="user-list-item">
+                                        <div class="user-list-item_text">
+                                            <p>ALBUM</p>
+                                        </div>
+                                    </li>
+                                    <li class="user-list-item">
+                                        <div class="user-list-item_text">
+                                            <p>MV</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="play-list-users">
+                                <div class="play-list-user active">
+                                    <div class="option2">
+                                        <ul class="option2-items">
+                                            <li class="option2-item active">
+                                                <div class="option2-item-text">
+                                                    <p>YÊU THÍCH</p>
+                                                </div>
+                                            </li>
+                                            <li class="option2-item">
+                                                <div class="option2-item-text">
+                                                    <p>ĐÃ TẢI LÊN</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="play-music">
+                                        <div class="play-music-table thumb">
+                                            <div class="play-music-table_item left">
+                                                <p>Bài hát</p>
+                                            </div>
+                                            <div class="play-music-table_item mid">
+                                                <p>Album</p>
+                                            </div>
+                                            <div class="play-music-table_item right">
+                                                <p>Tùy chọn</p>
+                                            </div>
+                                        </div>
+                                        <div class="play-music-lists">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="play-list-user">
+                                    <div class="option2">
+                                        <ul class="option2-items">
+                                            <li class="option2-item active">
+                                                <div class="option2-item-text">
+                                                    <p>TẬP MỚI</p>
+                                                </div>
+                                            </li>
+                                            <li class="option2-item">
+                                                <div class="option2-item-text">
+                                                    <p>TẬP ĐÃ LƯU</p>
+                                                </div>
+                                            </li>
+                                            <li class="option2-item">
+                                                <div class="option2-item-text">
+                                                    <p>CHƯƠNG TRÌNH</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="option2-content">
+                                        <div class="option2-content-img">
+                                            <img src="./asset/img/user-img/no-sound.webp" alt="">
+                                        </div>
+                                        <p class="option2-content-desc">Không có tập mới</p>
+                                    </div>
+                                </div>
+                                <div class="play-list-user">
+                                    <div class="option2-content">
+                                        <div class="option2-content-img">
+                                            <img src="./asset/img/user-img/no-sound.webp" alt="">
+                                        </div>
+                                        <p class="option2-content-desc">Chưa có album trong thư viện cá nhân</p>
+                                    </div>
+                                </div>
+                                <div class="play-list-user">
+                                    <div class="option2-content">
+                                        <div class="option2-content-img">
+                                            <img src="./asset/img/user-img/no-sound.webp" alt="">
+                                        </div>
+                                        <p class="option2-content-desc">Chưa có MV trong thư viện cá nhân</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="notification">
+                            <i class="notification-icon material-symbols-outlined">
+                                warning
+                            </i>
+                            <p class="notification-desc">Phần mềm đang hoàn thiện, Xin quay lại sau !!!</p>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="notification">
+                            <i class="notification-icon material-symbols-outlined">
+                                warning
+                            </i>
+                            <p class="notification-desc">Phần mềm đang hoàn thiện, Xin quay lại sau !!!</p>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="notification">
+                            <i class="notification-icon material-symbols-outlined">
+                                warning
+                            </i>
+                            <p class="notification-desc">Phần mềm đang hoàn thiện, Xin quay lại sau !!!</p>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="notification">
+                            <i class="notification-icon material-symbols-outlined">
+                                warning
+                            </i>
+                            <p class="notification-desc">Phần mềm đang hoàn thiện, Xin quay lại sau !!!</p>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="notification">
+                            <i class="notification-icon material-symbols-outlined">
+                                warning
+                            </i>
+                            <p class="notification-desc">Phần mềm đang hoàn thiện, Xin quay lại sau !!!</p>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="notification">
+                            <i class="notification-icon material-symbols-outlined">
+                                warning
+                            </i>
+                            <p class="notification-desc">Phần mềm đang hoàn thiện, Xin quay lại sau !!!</p>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <div class="notification">
+                            <i class="notification-icon material-symbols-outlined">
+                                warning
+                            </i>
+                            <p class="notification-desc">Phần mềm đang hoàn thiện, Xin quay lại sau !!!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <h3 class="footer-text">Đối Tác Âm Nhạc</h3>
+                    <div class="footer-img">
+                        <div class="footer-img-item">
+                            <img src="./asset/img/footer-img/1.png" alt="">  
+                        </div>
+                        <div class="footer-img-item setdown">
+                            <img src="./asset/img/footer-img/2.png" alt="">  
+                        </div>
+                        <div class="footer-img-item setdown">
+                            <img src="./asset/img/footer-img/3.png" alt="">
+                        </div>  
+                        <div class="footer-img-item setright">
+                            <img src="./asset/img/footer-img/4.png" alt="">
+                        </div> 
+                        <div class="footer-img-item setright">
+                            <img src="./asset/img/footer-img/5.png" alt="">
+                        </div>  
+                    </div>
+                    <div class="footer-img">
+                        <div class="footer-img-item">
+                            <img src="./asset/img/footer-img/7.png" alt="">
+                        </div> 
+                        <div class="footer-img-item">
+                            <img src="./asset/img/footer-img/9.png" alt="">
+                        </div>
+                        <div class="footer-img-item setdown">
+                            <img src="./asset/img/footer-img/10.png" alt="">
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="login-modal">
+            <div class="login-form">
+                <div class="login-form_content">
+                    <div class="logo">  
+                        <div class="menu-logo">
+                        </div>
+                    </div>
+                    <ul class="login-options">
+                        <li class="login-option-item active">
+                            <P>
+                                ĐĂNG NHẬP
+                            </P>
+                        </li>
+                        <li class="login-option-item">
+                            <P>
+                                ĐĂNG KÝ
+                            </P>
+                        </li>
+                    </ul>
+                    <div class="option-change ">
+                        <div class="login-content">
+                            <p class="login-content_text">
+                                Tên đăng nhập :
+                            </p>
+                            <input class="login-content_input" type="text" name="user-name" id="" placeholder="Nhập tên đăng nhập">
+        
+                            <p class="login-content_text">
+                                Mật khẩu :
+                            </p>
+                            <input class="login-content_input" type="password" name="user-name" id="" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="login-content-btn">
+                            <div class="login-btn">
+                                <p>Đăng nhập</p>
+                            </div>
+                            <div class="dk-btn">
+                                <p>Đăng ký</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option-change active">
+                        <!-- <div class="login-content">
+                            <p class="login-content_text">
+                                Tên đăng nhập :
+                            </p>
+                            <input class="login-content_input" type="text" name="user-name" id="" placeholder="Nhập tên đăng nhập">
+        
+                            <p class="login-content_text">
+                                Mật khẩu :
+                            </p>
+                            <input class="login-content_input" type="password" name="user-name" id="" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="login-content-btn">
+                            <div class="login-btn">
+                                <p>Đăng nhập</p>
+                            </div>
+                            <div class="dk-btn">
+                                <p>Đăng ký</p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="./asset/slick-1.8.1/slick/slick.min.js"></script>
+<script src="./asset/js/index.js"></script>
+</html>

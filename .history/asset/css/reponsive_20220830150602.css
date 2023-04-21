@@ -1,0 +1,29 @@
+/*  giao diện PC */
+@media (max-width: 64em) {
+    .reponsive {
+        display: none;
+    }
+}
+/* giao diện tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+    #menu-bar {
+        display: none !important; 
+    }
+
+    .add-menu-category {
+        display: none;
+    }
+}
+
+/* giao diện mobile */
+@media (max-width: 46.1875em) {
+    /* .main {
+        display: none;
+    }
+    
+    .reponsive {
+        display: block;
+    } */
+}
+

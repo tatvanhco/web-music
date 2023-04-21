@@ -1,0 +1,172 @@
+/*  giao diện PC */
+@media (max-width: 64em) {
+    
+}
+/* giao diện tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #main {
+        margin-left: 0;
+    }
+
+    .menu-bar {
+        z-index: 9992;
+        display: none;
+    }
+
+    .header {
+        width: 100vw;
+        padding: 14px;
+        background-color: var(--layout-bg);
+    }
+
+    .header-content {
+        /* justify-content: inherit; */
+    }
+
+    .search-items {
+        display: none;
+    }
+
+    .menubar {
+        display: block;
+        text-decoration: none;
+        color:  #d5d0d0;
+    }
+
+    .setting {
+        /* margin-left: 12rem; */
+    }
+
+    .body {
+        padding: 10px 23px;
+    }
+
+    .slide-music {
+        display: none;
+    }
+
+    .slide-music-mobile {
+        display: block;
+        width: 40rem;
+        margin: 17px auto;
+    }
+
+    .music-lists::-webkit-scrollbar {
+        width: 0 !important;
+        display: none;
+    } 
+
+    .music-lists {
+        width: 180%;
+        overflow: scroll;
+    }
+
+    .footer {
+        margin: 5rem 0;
+        padding: 10px 0px;
+    }
+}
+
+/* giao diện mobile */
+@media (max-width: 46.1875em) {
+    #main {
+        margin-left: 0;
+    }
+
+    .menu-bar {
+        z-index: 9992;
+        display: none;
+    }
+
+    #content1 {
+        width: 200vw;
+    }
+
+    .menu-bar.active {
+        display: block;
+    }
+
+    .menu-category {
+        width: 100%;
+    }
+
+    .list_add {
+        height: 55%;
+    }
+
+    .header {
+        width: 100vw;
+        padding: 14px;
+        background-color: var(--layout-bg);
+    }
+
+    .header-content {
+        /* justify-content: initial; */
+    }
+
+    .search-items {
+        display: none;
+    }
+
+    .input-search {
+        margin-top: 2px;
+        width: 30rem; 
+    }
+
+    .menubar {
+        display: block;
+        text-decoration: none;
+        color:  #d5d0d0;
+        margin-top: 5px;
+    }
+
+    .setting {
+        margin-top: 5px;
+        /* margin-left: 2rem; */
+    }
+
+    .body {
+        padding: 10px 23px;
+    }
+
+    .slide-music {
+        display: none;
+    }
+
+    .slide-music-mobile {
+        display: block;
+        width: 40rem;
+        margin: 17px auto;
+    }
+
+    .music-lists::-webkit-scrollbar {
+        width: 0 !important;
+        display: none;
+    } 
+
+    .music-lists {
+        width: 180%;
+        overflow: scroll;
+    }
+
+    .footer {
+        margin: 5rem auto;
+        padding: 10px 0px;
+        width: 44rem;
+        /* transform: translateX(10%); */
+    }
+
+    .footer-img-item {
+        height: 80px;
+        padding: 15px 5rem;
+        margin: 15px 2rem;
+    }
+
+    .footer-img-item img {
+        max-width: 92%;
+        position: absolute;
+        top: 7px;
+        left: 10px;
+    }
+}
+

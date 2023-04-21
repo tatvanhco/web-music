@@ -1,0 +1,17 @@
+/*  giao diện PC */
+@media (max-width: 64em) {
+    .
+}
+
+/* giao diện tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .main {
+        display: none;
+    }
+}
+
+/* giao diện mobile */
+@media (max-width: 46.1875em) {
+   
+}
+

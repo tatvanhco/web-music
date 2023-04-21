@@ -1,0 +1,225 @@
+/*  giao diện PC */
+@media (max-width: 64em) {
+    
+}
+/* giao diện tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #main {
+        margin-left: 0;
+    }
+
+    .menu-bar {
+        z-index: 9992;
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        padding: 14px;
+        background-color: var(--layout-bg);
+    }
+
+    .hiden-menu-modal {
+        right: 0;
+        display: none;
+    }
+
+    .search-items {
+        display: none;
+    }
+
+    .hiden-menu-modal.active {
+        display: block;
+    }
+
+    .menu-bar.active {
+        display: block;
+    }
+
+    .menubar {
+        display: block;
+        text-decoration: none;
+        color:  #d5d0d0;
+    }
+
+    .body {
+        padding: 10px 23px;
+    }
+
+    .slide-music {
+        display: none;
+    }
+
+    .slide-music-mobile {
+        display: block;
+        width: 40rem;
+        margin: 17px auto;
+    }
+
+    .music-lists::-webkit-scrollbar {
+        width: 0 !important;
+        display: none;
+    } 
+
+    .music-lists {
+        width: 90%;
+        overflow: scroll;
+    }
+
+    .user-img {
+        margin: 2rem 13rem 0 17rem;
+    }
+
+    .footer {
+        margin: 5rem 0;
+        padding: 10px 0px;
+    }
+
+    .listen-song {
+        display: block;
+    }
+
+    .play-music-modal {
+        margin: 41px 8rem;
+        
+    }
+
+    .play-music-table.thumb {
+        top: 30rem;
+        right: -2rem;
+        margin: 12px 0;
+        width: 44rem;
+    }
+
+    .play-music-lists {
+        height: 30rem;
+        width: 45rem;
+        overflow: scroll;
+        margin: 0 -31px;
+    }
+
+    .play-music-img {
+        margin-right: 10px;
+    }
+}
+
+/* giao diện mobile */
+@media (max-width: 46.1875em) {
+    #main {
+        margin-left: 0;
+    }
+
+    .menu-bar {
+        z-index: 9992;
+        display: none;
+    }
+
+    #content1 {
+        width: 200vw;
+    }
+
+    .hiden-menu-modal.active {
+        display: block;
+    }
+
+    .menu-bar.active {
+        display: block;
+    }
+
+    .menu-category {
+        width: 100%;
+    }
+
+    .hiden-menu-modal {
+        right: 0;
+        display: none;
+    }
+
+    .list_add {
+        height: 55%;
+    }
+
+    .header {
+        width: 100%;
+        padding: 14px;
+        background-color: var(--layout-bg);
+    }
+
+    .header-content {
+        /* justify-content: initial; */
+    }
+
+    .search-items {
+        display: none;
+    }
+
+    .input-search {
+        margin-top: 2px;
+        width: 30rem; 
+    }
+
+    .menubar {
+        display: block;
+        text-decoration: none;
+        color:  #d5d0d0;
+        margin-top: 5px;
+    }
+
+    .setting {
+        margin-top: 5px;
+        /* margin-left: 2rem; */
+    }
+
+    .body {
+        padding: 10px 23px;
+    }
+
+    .slide-music {
+        display: none;
+    }
+
+    .slide-music-mobile {
+        display: block;
+        width: 40rem;
+        margin: 17px auto;
+    }
+
+    .music-lists::-webkit-scrollbar {
+        width: 0 !important;
+        display: none;
+    } 
+
+    .music-lists {
+        width: 90%;
+        overflow: scroll;
+    }
+
+    .user-img {
+        margin: 2rem 13rem 0 15rem;
+    }
+
+    .footer {
+        margin: 5rem auto;
+        padding: 10px 0px;
+        width: 44rem;
+        /* transform: translateX(10%); */
+    }
+
+    .footer-img-item {
+        height: 80px;
+        padding: 15px 5rem;
+        margin: 15px 2rem;
+    }
+
+    .footer-img-item img {
+        max-width: 92%;
+        position: absolute;
+        top: 7px;
+        left: 10px;
+    }
+
+    .listen-song {
+        display: block;
+    }
+}
+

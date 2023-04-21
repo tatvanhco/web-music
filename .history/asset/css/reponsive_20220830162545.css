@@ -1,0 +1,144 @@
+/*  giao diện PC */
+@media (max-width: 64em) {
+    .reponsive {
+        display: none;
+    }
+}
+/* giao diện tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #main {
+        margin-left: 0;
+    }
+
+    #menu-bar {
+        display: none !important; 
+    }
+
+    .add-menu-category {
+        display: none;
+    }
+
+    .header {
+        padding: 14px;
+        background-color: var(--layout-bg);
+    }
+
+    .header-content {
+        justify-content: initial;
+    }
+
+    .search-items {
+        display: none;
+    }
+
+    .menubar {
+        display: block;
+        text-decoration: none;
+        color:  #d5d0d0;
+    }
+
+    .setting {
+        margin-left: 1rem;
+    }
+
+    .body {
+        padding: 10px 23px;
+    }
+
+    .slide-music {
+        display: none;
+    }
+
+    .slide-music-mobile {
+        display: block;
+        width: 40rem;
+        margin: 17px 3rem;
+    }
+
+    .music-lists::-webkit-scrollbar {
+        width: 0 !important;
+        display: none;
+    } 
+
+    .music-lists {
+        overflow: scroll;
+    }
+
+    .footer {
+        margin: 5rem 0;
+        padding: 10px 0px;
+    }
+}
+
+/* giao diện mobile */
+@media (max-width: 46.1875em) {
+    #main {
+        margin-left: 0;
+    }
+
+    #menu-bar {
+        display: none !important; 
+    }
+
+    .add-menu-category {
+        display: none;
+    }
+
+    .header {
+        padding: 14px;
+        background-color: var(--layout-bg);
+    }
+
+    .header-content {
+        justify-content: initial;
+    }
+
+    .search-items {
+        display: none;
+    }
+
+    .input-search {
+        width: 30rem; 
+    }
+
+    .menubar {
+        display: block;
+        text-decoration: none;
+        color:  #d5d0d0;
+        m
+    }
+
+    .setting {
+        margin-top: 5px;
+        margin-left: 2rem;
+    }
+
+    .body {
+        padding: 10px 23px;
+    }
+
+    .slide-music {
+        display: none;
+    }
+
+    .slide-music-mobile {
+        display: block;
+        width: 40rem;
+        margin: 17px 3rem;
+    }
+
+    .music-lists::-webkit-scrollbar {
+        width: 0 !important;
+        display: none;
+    } 
+
+    .music-lists {
+        overflow: scroll;
+    }
+
+    .footer {
+        margin: 5rem 0;
+        padding: 10px 0px;
+    }
+}
+

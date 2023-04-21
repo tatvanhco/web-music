@@ -1,0 +1,11 @@
+{
+    "course": [
+        {
+            "id": 1,
+            "name": "Lộ trình học",
+            "video": "./videp/43dbf767eb80d845ba6ff86fd0efd8b2.lrc",
+            "thumbnail": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/avatars/f/1/d/d/f1ddeb86e263f0d67f835f1b60539a34.jpg",
+            "description": "Để bắt đầu một cách thuận lợi, bạn nên tập trung vào một lộ trình học. Ví dụ: Để đi làm với vị trí “Lập trình viên Front-end” bạn nên tập trung vào lộ trình “Front-end”"
+        }
+    ]
+}
